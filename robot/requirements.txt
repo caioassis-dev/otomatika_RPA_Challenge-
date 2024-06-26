@@ -1,0 +1,4 @@
+rpaframework
+openpyxl
+requests
+
