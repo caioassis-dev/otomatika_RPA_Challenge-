@@ -1,0 +1,10 @@
+robot:
+  name: News Data Extraction
+  tasks:
+    Extract News Data:
+      robot: tasks.robot
+      shell: python
+      environment:
+        PYTHONPATH: .:resources
+  condaConfigFile: conda.yaml
+  artifactsDir: output/
